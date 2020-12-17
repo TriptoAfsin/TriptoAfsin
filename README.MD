@@ -1,3 +1,3 @@
 # TriptoAfsin
 
-![GitHub metrics](https://github.com/TriptoAfsin/TriptoAfsin/blob/master/github-metrics.svg)
+![GitHub metrics](https://raw.githubusercontent.com/TriptoAfsin/TriptoAfsin/main/github-metrics.svg)
