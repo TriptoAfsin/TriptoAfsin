@@ -1,3 +1,9 @@
-# At a galance
+# Hello, I'm Afshin Nahian Tripto 
+### I’m a freelance web developer and an engineering student who is passionate about tech and loves to learn. I love to share my knowledge and experiences. I'm a firm believer of "Change starts from you" 😀
 
-[cooment]![GitHub metrics](https://raw.githubusercontent.com/TriptoAfsin/TriptoAfsin/main/github-metrics.svg)
+
+🟢 Frontend: HTML, CSS, JavaScript, React, Wordpress
+🟣 Backend: Node JS
+🟠 Others: cPanel, Heroku, Firebase
+🔵 Mobile: Android Native, Flutter
+
