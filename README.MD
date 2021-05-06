@@ -20,3 +20,5 @@
 
 4️⃣ [Rongila CSS](https://rongila.netlify.app/)
 
+### [More About Me 🌏](https://triptex.me/#/)
+
