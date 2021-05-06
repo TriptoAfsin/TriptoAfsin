@@ -3,7 +3,10 @@
 
 
 🟢 Frontend: HTML, CSS, JavaScript, React, Wordpress
+
 🟣 Backend: Node JS
+
 🟠 Others: cPanel, Heroku, Firebase
+
 🔵 Mobile: Android Native, Flutter
 
