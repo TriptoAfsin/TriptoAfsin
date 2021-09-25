@@ -6,7 +6,7 @@
 
 🟣 Backend: Node JS
 
-🟣 Database: Postgres, MySQL
+🔴 Database: Postgres, MySQL
 
 🟠 Others: cPanel, Heroku, Firebase, Git 
 
