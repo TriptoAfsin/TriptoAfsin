@@ -11,7 +11,7 @@
 
 🟠 Others: cPanel, Heroku, Firebase, Git 
 
-🔵 Mobile: Android Native, Flutter
+🔵 Mobile: React Native, Android Native
 
 ## Projects - 
 
