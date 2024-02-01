@@ -5,13 +5,15 @@
 
 🟢 Frontend: HTML, CSS, JavaScript, React, Next JS, Wordpress
 
+🔵 Mobile: React Native, Android Native
+
 🟣 Backend: Node JS, Next JS
 
 🔴 Database: Postgres, MySQL
 
 🟠 Others: cPanel, Heroku, Firebase, Git 
 
-🔵 Mobile: React Native, Android Native
+
 
 ## Projects - 
 
