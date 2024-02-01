@@ -5,7 +5,7 @@
 
 🟢 Frontend: HTML, CSS, JavaScript, React, Next JS, Wordpress
 
-🟣 Backend: Node JS
+🟣 Backend: Node JS, Next JS
 
 🔴 Database: Postgres, MySQL
 
