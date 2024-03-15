@@ -6,6 +6,20 @@
 
 ###
 
+<div align="left">
+  <a href="https://www.linkedin.com/in/triptoafsin/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="32" height="32" alt="linkedin logo"  />
+  </a>
+  <a href="https://www.facebook.com/me/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="32" height="32" alt="facebook logo"  />
+  </a>
+  <a href="mailto:AfsinTripto@gmail.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="32" height="32" alt="gmail logo"  />
+  </a>
+</div>
+
+###
+
 <h2 align="left">My Prerferred Stack</h2>
 
 ###
