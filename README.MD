@@ -1,31 +1,48 @@
-# Hello, I'm Afshin Nahian Tripto 
-### I’m a fullstack web developer and an engineering student who is passionate about tech and loves to learn. I love to share my knowledge and experiences. I'm a firm believer of "Change starts from you" 😀
+<h1 align="left">Hello, I'm Afshin Nahian Tripto 👋</h1>
 
-🧠 Languages: JavaScript, TypeScript, Python, Java, C
+###
 
-✨ Frontend: HTML, CSS, JavaScript, React, Next JS, Wordpress
+<h4 align="left">I’m a fullstack web developer and an engineering student who is passionate about tech and loves to learn. I love to share my knowledge and experiences. I'm a firm believer of "Change starts from you" 😀</h4>
 
-📱 Mobile: React Native, Android Native
+###
 
-⚙️ Backend: Node JS, Next JS
+<h2 align="left">My Prerferred Stack</h2>
 
-🪣 Database: Postgres, MySQL
+###
 
-🔨 Others: cPanel, Heroku, Firebase, Git 
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
+</div>
 
+###
 
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=triptoafsin&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
+  <img src="https://streak-stats.demolab.com?user=triptoafsin&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+</div>
 
-## Projects - 
+###
 
-1️⃣ [NoteBOT Engine](https://github.com/TriptoAfsin/notebot-engine-v1) 
+<h2 align="left">Skillset</h2>
 
-2️⃣ [Cloud lib](https://github.com/TriptoAfsin/Cloud-Lib-React)
+###
 
-3️⃣ [Count Koto](https://github.com/TriptoAfsin/CountKoto-Android-App)
+<p align="left">🧠 Languages: JavaScript, TypeScript, Python, Java, C<br><br>✨ Frontend: HTML, CSS, JavaScript, React, Next JS, Wordpress<br><br>📱 Mobile: React Native, Android Native<br><br>⚙️ Backend: Node JS, Next JS<br><br>🪣 Database: Postgres, MySQL<br><br>🔨 Others: cPanel, Heroku, Firebase, Git</p>
 
-4️⃣ [Rongila CSS](https://rongila.netlify.app/)
+###
 
-5️⃣ [Triptex Portfolio](https://github.com/TriptoAfsin/triptex-portfolio)
+<div align="left">
+  <img src="https://github-profile-trophy.vercel.app?username=triptoafsin&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+</div>
 
-### [More About Me 🌏](https://triptex.me/#/)
-
+###
