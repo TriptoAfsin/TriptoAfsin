@@ -1,17 +1,17 @@
 # Hello, I'm Afshin Nahian Tripto 
 ### I’m a fullstack web developer and an engineering student who is passionate about tech and loves to learn. I love to share my knowledge and experiences. I'm a firm believer of "Change starts from you" 😀
 
-🟡 Languages: JavaScript, TypeScript, Python, Java, C
+🧠 Languages: JavaScript, TypeScript, Python, Java, C
 
-🟢 Frontend: HTML, CSS, JavaScript, React, Next JS, Wordpress
+✨ Frontend: HTML, CSS, JavaScript, React, Next JS, Wordpress
 
-🔵 Mobile: React Native, Android Native
+📱 Mobile: React Native, Android Native
 
-🟣 Backend: Node JS, Next JS
+⚙️ Backend: Node JS, Next JS
 
-🔴 Database: Postgres, MySQL
+🪣 Database: Postgres, MySQL
 
-🟠 Others: cPanel, Heroku, Firebase, Git 
+🔨 Others: cPanel, Heroku, Firebase, Git 
 
 
 
