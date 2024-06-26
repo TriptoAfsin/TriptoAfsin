@@ -52,7 +52,7 @@
 
 ###
 
-<p align="left">🧠 Languages: JavaScript, TypeScript, Python, Java, C<br><br>✨ Frontend: HTML, CSS, JavaScript, React, Next JS, Wordpress<br><br>📱 Mobile: React Native, Android Native<br><br>⚙️ Backend: Node JS, Next JS<br><br>🪣 Database: Postgres, MySQL<br><br>🔨 Others: cPanel, Heroku, Firebase, Git</p>
+<p align="left">🧠 Languages: TypeScript, JavaScript, Python, Java, C<br><br>✨ Frontend: Next JS, React, HTML, CSS, JavaScript, Wordpress<br><br>📱 Mobile: React Native, Android Native<br><br>⚙️ Backend: Node JS, Nest JS<br><br>🪣 Database: PostgreSQL, MySQL<br><br>🔨 Others: cPanel, Render, Railway, Firebase, Git</p>
 
 ###
 
