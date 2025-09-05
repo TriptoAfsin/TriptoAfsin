@@ -9,7 +9,7 @@
   </a>
 </h4>
 
-<h3 align="left">📜 Certifications</h3>
+<h4 align="left">📜 Certifications</h4>
 <p align="left">
   ▪ <a href="https://www.linkedin.com/learning/certificates/221aff41994e0ebab6391ba87a38d34aa2af8d79e26e54e57f592a01a5d487cf?trk=share_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BboTxBAtPRlqnSk9Gtd%2Fm2w%3D%3D" target="_blank"><b>Software Architecture Foundations</b></a>, LinkedIn <br>
   ▪ <a href="https://scrimba.com/certificate-cert24zAwJ78kJj66ubKZTLEN2v8FZtw9SCpybc1J" target="_blank"><b>The AI Engineer Path</b></a>, Scrimba <br>
