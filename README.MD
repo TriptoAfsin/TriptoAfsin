@@ -2,7 +2,7 @@
 
 ###
 
-<h4 align="left">I’m a fullstack web developer and an engineering student who is passionate about tech and loves to learn. I love to share my knowledge and experiences. I'm a firm believer of "Change starts from you" 😀</h4>
+<h4 align="left">I’m a fullstack / AI engineer who is passionate about tech and loves to learn. I love to share my knowledge and experiences. I'm a firm believer of "Change starts from you" 😀</h4>
 <h4 align="left">
  <a href="https://www.triptex.me/cv/Afshin%20Nahian%20Tripto-Software%20Engineer.pdf" target="_blank" style="margin-right: 10px;">
     📄 My Resume
