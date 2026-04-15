@@ -9,20 +9,6 @@
   </a>
 </h4>
 
-<h4 align="left">📜 Certifications</h4>
-<p align="left">
-  ▪ <a href="https://www.linkedin.com/learning/certificates/221aff41994e0ebab6391ba87a38d34aa2af8d79e26e54e57f592a01a5d487cf?trk=share_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BboTxBAtPRlqnSk9Gtd%2Fm2w%3D%3D" target="_blank"><b>Software Architecture Foundations</b></a>, LinkedIn <br><br>
-  ▪ <a href="https://scrimba.com/certificate-cert24zAwJ78kJj66ubKZTLEN2v8FZtw9SCpybc1J" target="_blank"><b>The AI Engineer Path</b></a>, Scrimba <br><br>
-  ▪ <a href="https://www.coursera.org/account/accomplishments/verify/F33XPBI9CCNP" target="_blank"><b>
-Generative AI Engineering and Fine-Tuning Transformers</b></a>, IBM <br><br>
-  ▪ <a href="https://huggingface.co/datasets/agents-course/certificates/resolve/main/certificates/triptex/2025-03-02.png" target="_blank"><b>AI Agents Fundamentals</b></a>, Hugging Face <br><br>
-  ▪ <a href="https://www.credly.com/badges/ef818017-5aba-4e0a-8c9f-1e70f0c054f2/linked_in_profile" target="_blank"><b>Ethical Hacker</b></a>, Cisco <br><br>
-  ▪ <a href="https://simpli-web.app.link/e/fi81lOOrJIb" target="_blank"><b>Introduction to SQL</b></a>, Simplilearn
-</p>
-
-
-###
-
 <div align="left">
   <a href="https://www.linkedin.com/in/triptoafsin/" target="_blank" style="margin-right: 10px;">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="32" height="32" alt="linkedin logo"  />
@@ -48,6 +34,17 @@ Generative AI Engineering and Fine-Tuning Transformers</b></a>, IBM <br><br>
 - 📊 [ts-stats](https://github.com/TriptoAfsin/ts-stats) - TypeScript utility library for statistical operations
 - 📄 [Chonkie PDF](https://github.com/TriptoAfsin/chonkie-pdf) - Python CLI for splitting large PDFs with smart compression
 - ✅ [is-it-dash](https://github.com/TriptoAfsin/is-it-dash) - Zero-dependency validation library for Node.js
+
+###
+
+<h2 align="left">Certifications</h2>
+
+- 🏗️ [Software Architecture Foundations](https://www.linkedin.com/learning/certificates/221aff41994e0ebab6391ba87a38d34aa2af8d79e26e54e57f592a01a5d487cf?trk=share_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BboTxBAtPRlqnSk9Gtd%2Fm2w%3D%3D) - LinkedIn
+- 🤖 [The AI Engineer Path](https://scrimba.com/certificate-cert24zAwJ78kJj66ubKZTLEN2v8FZtw9SCpybc1J) - Scrimba
+- 🧬 [Generative AI Engineering and Fine-Tuning Transformers](https://www.coursera.org/account/accomplishments/verify/F33XPBI9CCNP) - IBM
+- 🕵️ [AI Agents Fundamentals](https://huggingface.co/datasets/agents-course/certificates/resolve/main/certificates/triptex/2025-03-02.png) - Hugging Face
+- 🛡️ [Ethical Hacker](https://www.credly.com/badges/ef818017-5aba-4e0a-8c9f-1e70f0c054f2/linked_in_profile) - Cisco
+- 🗄️ [Introduction to SQL](https://simpli-web.app.link/e/fi81lOOrJIb) - Simplilearn
 
 ###
 
