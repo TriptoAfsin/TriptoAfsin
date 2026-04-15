@@ -36,6 +36,19 @@ Generative AI Engineering and Fine-Tuning Transformers</b></a>, IBM <br><br>
 </div>
 
 
+<h2 align="left">Notable Projects</h2>
+
+- 🤖 [NoteBot Engine](https://github.com/TriptoAfsin/notebot-engine-v1) - Messenger chatbot serving BUTEX students with study materials 24/7
+- 📝 [MD Viewer](https://github.com/TriptoAfsin/md-viewer-pwa) - Offline-ready PWA for rendering Markdown with Shiki highlighting & Mermaid diagrams
+- 🔒 [Bin-21](https://github.com/t21dev/bin-21) - Privacy-first encrypted pastebin with burn-after-reading & client-side AES-256-GCM
+- 🖥️ [Porter](https://github.com/t21dev/porter-app) - Cross-platform port monitor desktop app built with Tauri 2.0 & Rust
+- 🧠 [DocSet Gen](https://github.com/t21dev/docset-gen) - Scrape documentation sites & generate LLM fine-tuning datasets
+- 🇧🇩 [bang-utils](https://github.com/TriptoAfsin/bang-utils) - npm package for converting English numerals & dates to Bengali
+- 💬 [Simple Messenger Blocks](https://github.com/TriptoAfsin/simple-messenger-blocks) - npm package for generating Messenger chatbot UI blocks
+- 📊 [ts-stats](https://github.com/TriptoAfsin/ts-stats) - TypeScript utility library for statistical operations
+- 📄 [Chonkie PDF](https://github.com/TriptoAfsin/chonkie-pdf) - Python CLI for splitting large PDFs with smart compression
+- ✅ [is-it-dash](https://github.com/TriptoAfsin/is-it-dash) - Zero-dependency validation library for Node.js
+
 ###
 
 <h2 align="left">My Prerferred Stack</h2>
