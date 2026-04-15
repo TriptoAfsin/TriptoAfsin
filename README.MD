@@ -9,18 +9,50 @@
   </a>
 </h4>
 
+<p align="left">
+  <a href="https://www.linkedin.com/in/triptoafsin/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="24" alt="linkedin" />
+  </a>
+  &nbsp;
+  <a href="https://www.facebook.com/me/" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="24" alt="facebook" />
+  </a>
+  &nbsp;
+  <a href="mailto:AfsinTripto@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="24" alt="gmail" />
+  </a>
+</p>
+
+
+<h2 align="left">My Preferred Stack</h2>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" height="28" alt="typescript" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" height="28" alt="javascript" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" height="28" alt="python" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" height="28" alt="nextjs" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" height="28" alt="react" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" height="28" alt="nodejs" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" height="28" alt="postgresql" />
+</p>
+
+###
+
+<h2 align="left">GitHub Stats</h2>
+
 <div align="left">
-  <a href="https://www.linkedin.com/in/triptoafsin/" target="_blank" style="margin-right: 10px;">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="32" height="32" alt="linkedin logo"  />
-  </a>
-  <a href="https://www.facebook.com/me/" target="_blank" style="margin-right: 10px;">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="32" height="32" alt="facebook logo"  />
-  </a>
-  <a href="mailto:AfsinTripto@gmail.com" target="_blank" style="margin-right: 10px;">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="32" height="32" alt="gmail logo"  />
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=triptoafsin&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph" />
+  &nbsp;
+  <img src="https://streak-stats.demolab.com?user=triptoafsin&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph" />
 </div>
 
+###
 
 <h2 align="left">Notable Projects</h2>
 
@@ -45,37 +77,6 @@
 - 🕵️ [AI Agents Fundamentals](https://huggingface.co/datasets/agents-course/certificates/resolve/main/certificates/triptex/2025-03-02.png) - Hugging Face
 - 🛡️ [Ethical Hacker](https://www.credly.com/badges/ef818017-5aba-4e0a-8c9f-1e70f0c054f2/linked_in_profile) - Cisco
 - 🗄️ [Introduction to SQL](https://simpli-web.app.link/e/fi81lOOrJIb) - Simplilearn
-
-###
-
-<h2 align="left">My Prerferred Stack</h2>
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="mysql logo"  />
-</div>
-
-###
-
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=triptoafsin&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com?user=triptoafsin&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-</div>
-
-###
 
 <h2 align="left">Skillset</h2>
 
