@@ -42,18 +42,6 @@
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" height="28" alt="postgresql" />
 </p>
 
-###
-
-<h2 align="left">GitHub Stats</h2>
-
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=triptoafsin&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph" />
-  &nbsp;
-  <img src="https://streak-stats.demolab.com?user=triptoafsin&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph" />
-</div>
-
-###
-
 <h2 align="left">Notable Projects</h2>
 
 - 🤖 [NoteBot Engine](https://github.com/TriptoAfsin/notebot-engine-v1) - Messenger chatbot serving BUTEX students with study materials 24/7
@@ -98,6 +86,16 @@
 
 <div align="left">
   <img src="https://github-profile-trophy.vercel.app?username=triptoafsin&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+</div>
+
+###
+
+<h2 align="left">GitHub Stats</h2>
+
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=triptoafsin&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph" />
+  &nbsp;
+  <img src="https://streak-stats.demolab.com?user=triptoafsin&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph" />
 </div>
 
 ###
