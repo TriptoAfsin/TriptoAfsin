@@ -1,4 +1,4 @@
-<h1 align="left">Hey, I'm Afshin Nahian Tripto 👋</h1>
+<h1 align="left">Hey, I'm Afshin Nahian Tripto </h1>
 
 <a href="https://triptex.me" target="_blank"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1400&color=2F81F7&vCenter=true&width=620&height=32&lines=Founder+%C2%B7+Product+%26+AI+Engineer;Built+for+people.+Ready+for+their+agents.;Shipping+desktop+apps+in+Rust+%26+Tauri;Change+starts+from+you" alt="Founder · Product & AI Engineer. Built for people. Ready for their agents." /></a>
 
