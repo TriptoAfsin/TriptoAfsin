@@ -1,7 +1,8 @@
-// Draws the README's stack rows as outlined chips (logo + label) into ./*.svg.
+// Draws each Skillset item as an outlined chip (logo + label) into ./chips/<id>.svg
+// and rewrites the matching <!-- stack:row --> blocks in README.MD.
 // Logos come from Simple Icons (CC0). A chip with no slug is text-only.
 // Edit ROWS, then run:  node assets/stack/generate.mjs
-import { writeFileSync } from "node:fs";
+import { writeFileSync, readFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -38,28 +39,20 @@ const ROWS = {
 };
 
 const FONT = `-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif`;
-const ONE_LINE = {}; // rows allowed to run wider than maxW to stay on one line, e.g. { languages: 900 }
-const S = { h: 36, gap: 8, fs: 13.5, pad: 12, icon: 16, r: 10, maxW: 820 };
-const textW = (s) => [...s].reduce((w, ch) => w + (/[A-Z]/.test(ch) ? 0.63 : /[il.\s-]/.test(ch) ? 0.28 : 0.52) * S.fs, 0);
-const chipW = (k) => Math.round(S.pad + (k[1] ? S.icon + 7 : 0) + textW(k[0]) + S.pad + 2);
+const S = { h: 36, fs: 13.5, pad: 12, icon: 16, r: 10 };
+// Width estimate for the label. textLength pins the label to exactly this width, so a wider or
+// narrower system font (iOS, Windows, Linux) never overflows or leaves a gap.
+const textW = (s) => Math.round([...s].reduce((w, ch) => w + (/[mwMW]/.test(ch) ? 0.84 : /[A-Z]/.test(ch) ? 0.64 : /[il.\s-]/.test(ch) ? 0.3 : /[frtj]/.test(ch) ? 0.4 : 0.56) * S.fs, 0));
 
-function chip(x, y, w, k, path) {
-  const tx = x + S.pad + (path ? S.icon + 7 : 0);
-  return `<g><title>${k[0]}</title><rect x="${x + .5}" y="${y + .5}" width="${w - 1}" height="${S.h - 1}" rx="${S.r}" fill="none" stroke="#8B949E" stroke-opacity=".45"/>` +
-    (path ? `<g transform="translate(${x + S.pad},${y + (S.h - S.icon) / 2}) scale(${S.icon / 24})"><path fill="#${k[2]}" d="${path}"/></g>` : "") +
-    `<text x="${tx}" y="${y + S.h / 2 + 4.8}" font-family="${FONT}" font-size="${S.fs}" font-weight="500" fill="#7D8590">${k[0].replace(/&/g, "&amp;")}</text></g>`;
-}
-
-// Split into the fewest lines that fit maxW, then even the lines out so none is left nearly empty.
-function layout(widths, maxW = S.maxW) {
-  const total = widths.reduce((a, b) => a + b, 0) + S.gap * (widths.length - 1);
-  const lines = Math.max(1, Math.ceil(total / maxW));
-  for (let limit = Math.ceil(total / lines); limit <= maxW + 1; limit += 4) {
-    const out = [[]]; let x = 0;
-    widths.forEach((w, i) => { if (x && x + w > limit) { out.push([]); x = 0; } out.at(-1).push(i); x += w + S.gap; });
-    if (out.length <= lines) return out;
-  }
-  return [widths.map((_, i) => i)];
+// One SVG per chip, so every chip keeps the same size and the page wraps them like words.
+function chip(k, path) {
+  const tw = textW(k[0]);
+  const tx = S.pad + (path ? S.icon + 7 : 0);
+  const w = tx + tw + S.pad + 1;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${S.h}" viewBox="0 0 ${w} ${S.h}" role="img" aria-label="${k[0]}"><title>${k[0]}</title>` +
+    `<rect x=".5" y=".5" width="${w - 1}" height="${S.h - 1}" rx="${S.r}" fill="none" stroke="#8B949E" stroke-opacity=".45"/>` +
+    (path ? `<g transform="translate(${S.pad},${(S.h - S.icon) / 2}) scale(${S.icon / 24})"><path fill="#${k[2]}" d="${path}"/></g>` : "") +
+    `<text x="${tx}" y="${S.h / 2 + 4.8}" textLength="${tw}" lengthAdjust="spacingAndGlyphs" font-family="${FONT}" font-size="${S.fs}" font-weight="500" fill="#7D8590">${k[0].replace(/&/g, "&amp;")}</text></svg>`;
 }
 
 const paths = {};
@@ -71,15 +64,17 @@ for (const k of new Set(Object.values(ROWS).flat())) {
   if (d) paths[k] = d[1]; else { console.warn(`no logo for ${slug}, drawing text-only`); T[k][1] = null; }
 }
 
+mkdirSync(join(OUT, "chips"), { recursive: true });
+for (const id of new Set(Object.values(ROWS).flat())) writeFileSync(join(OUT, "chips", `${id}.svg`), chip(T[id], paths[id]));
+
+// Rewrite each <!-- stack:row --> ... <!-- /stack:row --> block in the README.
+const readme = join(OUT, "..", "..", "README.MD");
+let md = readFileSync(readme, "utf8");
 for (const [name, ids] of Object.entries(ROWS)) {
-  const widths = ids.map((id) => chipW(T[id]));
-  let body = "", W = 0;
-  layout(widths, ONE_LINE[name]).forEach((line, li) => {
-    let x = 0;
-    for (const i of line) { body += chip(x + 1, li * (S.h + S.gap) + 1, widths[i], T[ids[i]], paths[ids[i]]); x += widths[i] + S.gap; }
-    W = Math.max(W, x - S.gap + 2);
-  });
-  const H = layout(widths, ONE_LINE[name]).length * (S.h + S.gap) - S.gap + 2;
-  writeFileSync(join(OUT, `${name}.svg`), `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${ids.map((i) => T[i][0]).join(", ")}">${body}</svg>`);
+  const re = new RegExp(`<!-- stack:${name} -->[\\s\\S]*?<!-- /stack:${name} -->`);
+  const html = ids.map((id) => `<img src="./assets/stack/chips/${id}.svg" alt="${T[id][0]}" />`).join("\n");
+  if (re.test(md)) md = md.replace(re, `<!-- stack:${name} -->\n${html}\n<!-- /stack:${name} -->`);
+  else console.warn(`README has no <!-- stack:${name} --> block`);
 }
-console.log("wrote", Object.keys(ROWS).length, "rows");
+writeFileSync(readme, md);
+console.log("wrote", new Set(Object.values(ROWS).flat()).size, "chips and updated README");

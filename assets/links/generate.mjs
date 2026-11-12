@@ -23,7 +23,7 @@ const LINKS = [
   ["t21", "t21.dev", "8B949E", "github"],
 ];
 
-const textW = (s, fs) => [...s].reduce((w, ch) => w + (/[A-Z]/.test(ch) ? 0.63 : /[il.\s-]/.test(ch) ? 0.28 : 0.52) * fs, 0);
+const textW = (s, fs) => [...s].reduce((w, ch) => w + (/[mwMW]/.test(ch) ? 0.84 : /[A-Z]/.test(ch) ? 0.64 : /[il.\s-]/.test(ch) ? 0.3 : /[frtj]/.test(ch) ? 0.4 : 0.56) * fs, 0);
 
 async function logo(slug) {
   // LinkedIn left Simple Icons in v10; v9 still has it.
@@ -39,11 +39,12 @@ for (const [file, label, color, src] of LINKS) {
   const draw = typeof src === "function" ? src : await logo(src);
   const h = 38, fs = 14, pad = 14, is = 16;
 
-  let w = Math.round(pad + is + 8 + textW(label, fs) + pad + 2);
+  const tw = Math.round(textW(label, fs));
+  const w = pad + is + 8 + tw + pad + 1;
   writeFileSync(join(OUT, `${file}.svg`), svg(w, h, label,
     `<rect x=".5" y=".5" width="${w - 1}" height="${h - 1}" rx="10" fill="none" stroke="#8B949E" stroke-opacity=".45"/>` +
     icon(draw, color, pad, (h - is) / 2, is) +
-    `<text x="${pad + is + 8}" y="${h / 2 + 5}" font-family="${FONT}" font-size="${fs}" font-weight="500" fill="#7D8590">${label}</text>`));
+    `<text x="${pad + is + 8}" y="${h / 2 + 5}" textLength="${tw}" lengthAdjust="spacingAndGlyphs" font-family="${FONT}" font-size="${fs}" font-weight="500" fill="#7D8590">${label}</text>`));
 }
 
 function svg(w, h, label, body) {

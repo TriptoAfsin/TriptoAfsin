@@ -32,15 +32,17 @@ I turn messy problems into **AI-native products** that people and their agents c
 <h2 align="left">Notable Projects</h2>
 
 - 🤖 [NoteBot](https://butexnotebot.com) - Study platform for BUTEX students: [Messenger bot](https://github.com/TriptoAfsin/notebot-engine-v2), [web app](https://github.com/TriptoAfsin/notebot-web-v2), Android app, [CMS](https://github.com/TriptoAfsin/notebot-cms-v2) and [Go analytics](https://github.com/TriptoAfsin/notebot-anlaytics-go)
+- 💬 [NoteBot Engine](https://github.com/TriptoAfsin/notebot-engine-v1) - The original Messenger chatbot that has served BUTEX students study materials 24/7 since 2018
 - 🔌 [NoteBot MCP](https://github.com/TriptoAfsin/notebot-mcp) - MCP server that lets Claude & Gemini read official BUTEX notices, with a free API-key dashboard at [ai.butexnotebot.com](https://ai.butexnotebot.com)
+- 🧬 [Shapeshifting Software](https://github.com/TriptoAfsin/shape-shifter) - Software that reshapes its interface & workflows from natural-language intent, without giving up its core logic or guardrails
 - 📝 [MD Viewer](https://github.com/TriptoAfsin/md-viewer-pwa) - Offline-ready PWA for rendering Markdown with Shiki highlighting & Mermaid diagrams
 - 🔒 [Bin-21](https://github.com/t21dev/bin-21) - Privacy-first encrypted pastebin with burn-after-reading & client-side AES-256-GCM
 - 💡 [Glowy](https://github.com/TriptoAfsin/glowy) - Turn any screen into a soft, flattering light for video calls
-- 🪟 [Fluent Menu](https://github.com/TriptoAfsin/fluent-menu) - Windows 11 style manager for the Explorer right-click menu, with templates for AI coding agents & editors
-- 🎨 [Win 11 Folder Colors](https://github.com/TriptoAfsin/win-11-folder-colors) - Recolor every Windows 11 folder and keep the content thumbnails
 - 🧠 [DocSet Gen](https://github.com/t21dev/docset-gen) - Scrape documentation sites & generate LLM fine-tuning datasets
 - 📄 [Chonkie PDF](https://github.com/TriptoAfsin/chonkie-pdf) - Python CLI for splitting large PDFs with smart compression
-- 📦 npm packages - [bang-utils](https://github.com/TriptoAfsin/bang-utils) (Bengali numerals & dates) · [ts-stats](https://github.com/TriptoAfsin/ts-stats) · [simple-messenger-blocks](https://github.com/TriptoAfsin/simple-messenger-blocks) · [is-it-dash](https://github.com/TriptoAfsin/is-it-dash)
+- 🧱 [Simple Messenger Blocks](https://github.com/TriptoAfsin/simple-messenger-blocks) - npm package for generating Messenger chatbot UI blocks
+- 📊 [ts-stats](https://github.com/TriptoAfsin/ts-stats) - TypeScript utility library for statistical operations
+- 🇧🇩 [bang-utils](https://github.com/TriptoAfsin/bang-utils) - npm package for converting English numerals & dates to Bengali
 
 ###
 
@@ -57,42 +59,100 @@ I turn messy problems into **AI-native products** that people and their agents c
 
 **Languages**
 <p>
-  <img src="./assets/stack/languages.svg" alt="TypeScript, JavaScript, Rust, Go, Python, Java, C" />
+<!-- stack:languages -->
+<img src="./assets/stack/chips/ts.svg" alt="TypeScript" />
+<img src="./assets/stack/chips/js.svg" alt="JavaScript" />
+<img src="./assets/stack/chips/rust.svg" alt="Rust" />
+<img src="./assets/stack/chips/go.svg" alt="Go" />
+<img src="./assets/stack/chips/py.svg" alt="Python" />
+<img src="./assets/stack/chips/java.svg" alt="Java" />
+<img src="./assets/stack/chips/c.svg" alt="C" />
+<!-- /stack:languages -->
 </p>
 
 **AI / ML**
 <p>
-  <img src="./assets/stack/ai.svg" alt="Claude, MCP, Hugging Face, PyTorch, RAG, AI Agents, Prompt Engineering, Context Engineering, Fine-Tuning" />
+<!-- stack:ai -->
+<img src="./assets/stack/chips/claude.svg" alt="Claude" />
+<img src="./assets/stack/chips/mcp.svg" alt="MCP" />
+<img src="./assets/stack/chips/hf.svg" alt="Hugging Face" />
+<img src="./assets/stack/chips/torch.svg" alt="PyTorch" />
+<img src="./assets/stack/chips/rag.svg" alt="RAG" />
+<img src="./assets/stack/chips/agents.svg" alt="AI Agents" />
+<img src="./assets/stack/chips/prompt.svg" alt="Prompt Engineering" />
+<img src="./assets/stack/chips/context.svg" alt="Context Engineering" />
+<img src="./assets/stack/chips/ft.svg" alt="Fine-Tuning" />
+<!-- /stack:ai -->
 </p>
 
 **Frontend**
 <p>
-  <img src="./assets/stack/frontend.svg" alt="Next.js, React, TanStack Start, Vite, Tailwind CSS, HTML5, CSS" />
+<!-- stack:frontend -->
+<img src="./assets/stack/chips/next.svg" alt="Next.js" />
+<img src="./assets/stack/chips/react.svg" alt="React" />
+<img src="./assets/stack/chips/tanstack.svg" alt="TanStack Start" />
+<img src="./assets/stack/chips/vite.svg" alt="Vite" />
+<img src="./assets/stack/chips/tw.svg" alt="Tailwind CSS" />
+<img src="./assets/stack/chips/html.svg" alt="HTML5" />
+<img src="./assets/stack/chips/css.svg" alt="CSS" />
+<!-- /stack:frontend -->
 </p>
 
 **Desktop**
 <p>
-  <img src="./assets/stack/desktop.svg" alt="Tauri 2, GPUI, Homebrew, Scoop, WinGet, Flatpak, Microsoft Store" />
+<!-- stack:desktop -->
+<img src="./assets/stack/chips/tauri.svg" alt="Tauri 2" />
+<img src="./assets/stack/chips/gpui.svg" alt="GPUI" />
+<img src="./assets/stack/chips/brew.svg" alt="Homebrew" />
+<img src="./assets/stack/chips/scoop.svg" alt="Scoop" />
+<img src="./assets/stack/chips/winget.svg" alt="WinGet" />
+<img src="./assets/stack/chips/flatpak.svg" alt="Flatpak" />
+<img src="./assets/stack/chips/msstore.svg" alt="Microsoft Store" />
+<!-- /stack:desktop -->
 </p>
 
 **Mobile**
 <p>
-  <img src="./assets/stack/mobile.svg" alt="React Native, Android" />
+<!-- stack:mobile -->
+<img src="./assets/stack/chips/rn.svg" alt="React Native" />
+<img src="./assets/stack/chips/android.svg" alt="Android" />
+<!-- /stack:mobile -->
 </p>
 
 **Backend**
 <p>
-  <img src="./assets/stack/backend.svg" alt="Node.js, Bun, Express, NestJS, FastAPI, Gin" />
+<!-- stack:backend -->
+<img src="./assets/stack/chips/node.svg" alt="Node.js" />
+<img src="./assets/stack/chips/bun.svg" alt="Bun" />
+<img src="./assets/stack/chips/express.svg" alt="Express" />
+<img src="./assets/stack/chips/nest.svg" alt="NestJS" />
+<img src="./assets/stack/chips/fastapi.svg" alt="FastAPI" />
+<img src="./assets/stack/chips/gin.svg" alt="Gin" />
+<!-- /stack:backend -->
 </p>
 
 **Database**
 <p>
-  <img src="./assets/stack/database.svg" alt="PostgreSQL, MySQL, Redis" />
+<!-- stack:database -->
+<img src="./assets/stack/chips/pg.svg" alt="PostgreSQL" />
+<img src="./assets/stack/chips/mysql.svg" alt="MySQL" />
+<img src="./assets/stack/chips/redis.svg" alt="Redis" />
+<!-- /stack:database -->
 </p>
 
 **Cloud & DevOps**
 <p>
-  <img src="./assets/stack/cloud.svg" alt="Cloudflare, Workers, R2, Railway, Render, Firebase, Docker, Git, GitHub Actions" />
+<!-- stack:cloud -->
+<img src="./assets/stack/chips/cf.svg" alt="Cloudflare" />
+<img src="./assets/stack/chips/workers.svg" alt="Workers" />
+<img src="./assets/stack/chips/r2.svg" alt="R2" />
+<img src="./assets/stack/chips/railway.svg" alt="Railway" />
+<img src="./assets/stack/chips/render.svg" alt="Render" />
+<img src="./assets/stack/chips/firebase.svg" alt="Firebase" />
+<img src="./assets/stack/chips/docker.svg" alt="Docker" />
+<img src="./assets/stack/chips/git.svg" alt="Git" />
+<img src="./assets/stack/chips/gha.svg" alt="GitHub Actions" />
+<!-- /stack:cloud -->
 </p>
 
 
